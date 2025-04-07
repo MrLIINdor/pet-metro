@@ -20,8 +20,8 @@ export default function Typewriter({ text, ...prop }) {
       animate="visible"
       {...prop}
     >
-      {text.split("").map((char, i) => (
-        <motion.span key={`${char}-${i}`} variants={letterVariants}>
+      {text?.split("")?.map((char, i) => (
+        <motion.span key={`${i}`} variants={letterVariants}>
           {char}
         </motion.span>
       ))}

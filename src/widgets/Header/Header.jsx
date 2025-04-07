@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import LayoutTransition from "../../components/LayoutTransition/LayoutTransition";
-import "./Header.css";
 import Typewriter from "../../components/Typewriter/Typewriter";
+import "./Header.css";
 
 export default function Header() {
   return (
