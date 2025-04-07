@@ -1,6 +1,6 @@
 .box {
   min-height: 30em;
-  /* padding: 0 2em; */
+  padding: 0 2em;
   display: flex;
   justify-content: center;
   align-items: center;
