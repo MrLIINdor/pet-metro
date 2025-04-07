@@ -1,0 +1,15 @@
+.box {
+  height: 30em;
+  padding: 0 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing-space {
+  color: var(--color-red);
+  text-align: center;
+  width: 18em;
+  font-size: calc(var(--index) * 2.5);
+  font-weight: 300;
+}

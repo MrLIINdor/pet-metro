@@ -1,0 +1,30 @@
+.box-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0.5em;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+  height: 2em;
+  min-height: 2em;
+  width: 25em;
+  font-size: 16px;
+  color: var(--color-dark);
+}
+
+.box-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-line {
+  margin-right: 1em;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+
+.box-drawer {
+  background-color: var(--color-bouns) !important;
+}
