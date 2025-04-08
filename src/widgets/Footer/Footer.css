@@ -1,0 +1,16 @@
+.box-footer {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  min-height: 10em;
+  background-color: var(--color-dark);
+  color: var(--color-bouns);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2em;
+}
+
+@media (min-width: 380px) and (max-width: 1280px) {
+  .box-footer {
+    min-height: 5em;
+  }
+}

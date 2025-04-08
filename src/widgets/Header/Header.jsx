@@ -6,7 +6,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <LayoutTransition>
-      <div className="box">
+      <div className="box-header">
         <Typewriter
           className="typing-space"
           text={"Метрополетен города Москва"}

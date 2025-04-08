@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import Header from "../widgets/Header/Header";
-import "./style.css";
 import Frame from "../widgets/Frame/Frame";
 import Load from "../components/Load/Load";
 import axios from "axios";
+import Footer from "../widgets/Footer/Footer";
+import "./style.css";
 
 function App() {
   const [stations, setStations] = useState({
@@ -38,6 +39,7 @@ function App() {
     <>
       <Header />
       <Frame data={stations.data} />
+      <Footer />
     </>
   );
 }
