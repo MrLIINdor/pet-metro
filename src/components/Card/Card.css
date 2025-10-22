@@ -4,10 +4,9 @@
   padding: 1em 0.5em;
   justify-content: start;
   align-items: center;
+  justify-content: center;
   border-radius: 10px;
   height: 2em;
-  min-height: 2em;
-  width: 25em;
   font-size: 16px;
   color: var(--color-dark);
 }
