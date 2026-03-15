@@ -1,5 +1,5 @@
 .box-header {
-  padding: 7em 3em;
+  /* padding: 7em 3em; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +8,6 @@
 .typing-space {
   color: var(--color-red);
   text-align: center;
-  font-size: 20em;
+  font-size: calc(var(--index) * 2.5);
   font-weight: 300;
 }
