@@ -8,6 +8,6 @@
 .typing-space {
   color: var(--color-red);
   text-align: center;
-  font-size: calc(var(--index) * 2.5);
+  font-size: 20em;
   font-weight: 300;
 }
