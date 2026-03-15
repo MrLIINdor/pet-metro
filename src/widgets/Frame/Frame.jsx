@@ -6,19 +6,6 @@ import "./Frame.css";
 export default function Frame({ data }) {
   console.log(data);
 
-  let lazyLoad = {
-    visible: (i) => {
-      const delay = i * 0.5;
-
-      return {
-        transition: {
-          opacity: { delay, duration: 0.5 },
-        },
-      };
-    },
-    hidden: { opacity: 0 },
-  };
-
   const variants = {
     visible: (i) => ({
       opacity: 1,

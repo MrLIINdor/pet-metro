@@ -1,22 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
 
-html {
+html,
+body {
   /* font-family: "Yanone Kaffeesatz", sans-serif; */
   font-family: "Comfortaa", sans-serif;
   scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  min-height: 100vh;
-  letter-spacing: 0.005em;
   background-color: var(--color-bouns);
   color: var(--color-grey);
+  letter-spacing: 0.005em;
+  margin: 0;
+  padding: 0;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 *,

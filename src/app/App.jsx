@@ -36,11 +36,11 @@ function App() {
   return stations.isLoading ? (
     <Load />
   ) : (
-    <>
+    <div className="main-layout">
       <Header />
       <Frame data={stations.data} />
       <Footer />
-    </>
+    </div>
   );
 }
 
