@@ -1,5 +1,6 @@
 .box-header {
   /* padding: 7em 3em; */
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
